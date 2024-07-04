@@ -1,0 +1,206 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bg-green
+{
+  background-color: rgb(99, 198, 99);
+  
+}
+main
+  {
+      padding: 1rem;
+  }
+.products
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  
+ 
+}
+.product
+{
+  
+  
+  margin: 20px;
+  margin-top: 0px;
+  
+}
+.product img
+{
+  width: 100%;
+  max-width: 400px;
+}
+.product-info
+{
+  padding: 1rem;
+}
+
+h1
+{
+  text-align: left;
+}
+
+.fa-star
+{
+  color: rgb(126, 126, 253)
+}
+.fa-star-half-alt
+{
+  color: rgb(126, 126, 253)
+}
+
+.double-width {
+  width: 66.66%; /* Adjust this value to your preference */
+}
+.table{
+  
+  display: table;
+  border-spacing: 12px;
+}
+
+
+
+.joi
+{
+  object-fit: contain;
+  display: block;
+}
+
+.mb
+{
+  margin: 0;
+}
+
+thead>tr>:nth-child(1){
+  background-color:  rgb(227, 252, 229);
+  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align:center;
+ }
+tbody>tr>:nth-child(1){
+  background-color: rgb(227, 252, 229);
+  
+  font-size:large;
+  text-align:center;
+ }
+
+.clr_blue
+{
+  color: rgb(126, 126, 253);
+  font-weight: bold;
+  
+}
+.ft_1
+{
+  font-size: medium;
+}
+
+.margin
+{
+  margin-bottom: 2rem;
+}
+.wb
+{
+  padding: 30%;
+}
+
+div.nav-item.dropdown
+{
+  padding-top: 2px;
+  font-size: 25px;
+}
+
+.checkout-steps>div
+{ 
+  border-bottom: 5px solid rgb(192, 192, 192);
+  color: rgb(192, 192, 192);
+}
+.checkout-steps>div.active
+{
+  border-bottom: 5px solid rgb(253, 186, 62);
+  color:  rgb(253, 186, 62);
+}
+
+.ft_2
+{
+  font-size: 17px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+#danger
+{
+  background-color: red;
+}
+
+#success
+{
+  background-color: rgb(27, 193, 27);
+}
+.col-4
+    {
+      width: 33.333%;  
+    }
+    @media (576px <= width <= 768px)
+    {
+     .sm-fontSize
+       {
+         font-size: 0.7rem;
+         
+         
+         
+       }
+      #sm-btn-fontSize
+       {
+         font-size: 0.5rem;
+         padding-left: 0.4rem;
+         padding-right: 0.4rem;
+         padding-top: 0.2rem;
+         padding-bottom: 0.2rem;
+       }
+     
+   }     
+@media (max-width: 576px) {
+  .sm-fontSize
+    {
+      font-size: 0.3rem;
+      font-weight: bold;
+    }
+   #sm-btn-fontSize
+    {
+      font-size: 0.3rem;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      padding-top: 0.05rem;
+      padding-bottom: 0.05rem;
+    }
+  
+}
+#border_order_h
+  {
+    border-bottom: solid black 0.1rem;
+  }
