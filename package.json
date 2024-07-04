@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://biooonourri.onrender.com",
+  "proxy": "https://bionourri-api.onrender.com",
   "dependencies": {
     "@paypal/react-paypal-js": "^8.5.0",
     "@testing-library/jest-dom": "^5.17.0",
